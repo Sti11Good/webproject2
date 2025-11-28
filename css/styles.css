@@ -67,7 +67,7 @@ li {
 
 .picture {
     display:inline-block;
-    border: 1px solid hsl(0,0%,60%);
+    border: 2px solid hsl(0,0%,60%);
     width: 20%;
 }
 
@@ -83,7 +83,7 @@ li {
 }
 
 .picture:hover {
-    border: 1px solid hsl(0,0%,20%)
+    border: 2px hsl(0,0%,20%)
 }
 
 .box {
@@ -111,4 +111,12 @@ li {
     list-style: none;
     padding: 0px;
     margin: 0px;
+}
+
+.gallery .picture:nth-child(odd) {
+    border-style: dotted;
+}
+
+.gallery .picture:nth-child(even) {
+    border-style: solid;
 }
