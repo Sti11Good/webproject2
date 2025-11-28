@@ -99,12 +99,10 @@ li {
 
 .left {
     padding: 5px;
-    text-align: justify;
 }
 
 .right {
     padding: 5px;
-    text-align: justify;
 }
 
 .box ul {
@@ -112,3 +110,4 @@ li {
     padding: 0px;
     margin: 0px;
 }
+
